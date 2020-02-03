@@ -18,7 +18,7 @@ namespace FactoryPatternCard
             _annualCharge = annualCharge;
         }
 
-        public override int CardType
+        public override string CardType
         {
             get { return _cardType; }
         }
